@@ -12,8 +12,6 @@
 - ✔ Socket 級斷線偵測（FIN / RST）
 - ✔ Thread-safe 發送（避免資料衝突）
 - ✔ 事件回呼（Connected / Disconnected / MessageReceived）
-- ✔ 不依賴任何 DLL、MES、機台特殊格式
-- ✔ 可直接用於 MES 通訊 Demo 或作品集展示
 
 ---
 
@@ -62,8 +60,6 @@ client.Stop();
 - 多執行緒架構（ReadLoop + ReconnectLoop）
 - Thread-safe 發送（lock 保護 NetworkStream）
 - 自動重連機制（自動檢查 → 掉線 → 重連）
-- 可回呼事件架構，方便整合到其他設備或 MES 模組
-- 通用實作，不依賴任何私有格式或 DLL
 
 ---
 
@@ -73,7 +69,6 @@ client.Stop();
 - 心跳包（Heartbeat）通信
 - 設備狀態上報
 - 自動重連 TCP 模組
-- 工廠自動化、製造業 IPC 通訊
 
 ---
 
