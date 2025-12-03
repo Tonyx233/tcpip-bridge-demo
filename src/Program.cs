@@ -17,7 +17,7 @@ namespace MesTcpClientDemo
 
             client.Start();
 
-            Console.WriteLine("輸入文字可傳送，輸入 exit 離開");
+            Console.WriteLine("Type message and press ENTER. Type 'exit' to quit.");
 
             while (true)
             {
