@@ -1,6 +1,6 @@
-# MES TCP/IP Client Demo
+# TCP/IP Client Demo
 
-這是一個用於 **MES ↔ 設備通信** 的 TCP/IP 客戶端示範專案。  
+這是一個用於 **Server ↔ Client通信** 的 TCP/IP 客戶端示範專案。  
 具備自動重連、斷線偵測、多執行緒架構、Thread-safe 發送等功能。  
 
 ---
@@ -65,7 +65,7 @@ client.Stop();
 
 ## 🏭 適用場景
 
-- MES ↔ 設備 TCP 通訊橋接
+- Server ↔ Client TCP 通訊橋接
 - 心跳包（Heartbeat）通信
 - 設備狀態上報
 - 自動重連 TCP 模組
